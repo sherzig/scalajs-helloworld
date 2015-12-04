@@ -1,0 +1,23 @@
+compile
+run
+compile
+run
+last
+test
+run
+clean
+run
+last compile:run
+clean
+run
+exit
+clean
+run
+clean
+run
+fastOptJS
+quit
+exit
+run
+quit
+exit

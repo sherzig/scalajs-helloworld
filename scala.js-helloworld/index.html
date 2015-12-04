@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page for Scala.js Stuffs</title>
+</head>
+<body>
+    <script type="text/javascript" src="./target/scala-2.11/scala-js-helloworld-fastopt.js"></script>
+    <script type="text/javascript">
+          var hw = new HelloWorld();
+          document.write('The list should follow<br />');
+          document.write(hw.myList);
+          document.write('<br />End of elements');
+    </script>
+</body>
+</html>
